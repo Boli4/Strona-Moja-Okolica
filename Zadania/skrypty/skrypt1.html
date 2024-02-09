@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Skrypty- zegarek</title>
+	<meta name="author" content="Mateusz Bolingier">
+	<meta name="description" content="Zadania">
+	<meta name="keywords" content="szkoła, Mateusz, Bolingier, moja okolica, Racibórz, Ostróg">
+	<link href="styleSkrypty.css" rel="stylesheet" type="text/css"/>
+	<link rel="shortcut icon" href="mojeFavicon.ico" type="image/x-icon" />
+	
+</head>
+<body>
+
+	<div id="container">
+	
+		<h2>Zegarek</h2>
+		
+		<script language="javascript">
+		<!--W3e JAVAscript Preset
+		var timerID = null;
+		var timerRunning = false;
+		function stopclock()
+		{
+			if(timerRunning)
+				clearTimeout(timerID)
+			timerRunning = false;
+		}
+
+		function startclock()
+		{
+			stopclock();
+			showtime();
+		}
+
+		function showtime()
+		{
+			var now = new Date();
+			var hours = now.getHours();
+			var minutes = now.getMinutes();
+			var seconds = now.getSeconds();
+			var timeValue = "" + ((hours > 12) ? hours - 12 : hours);
+			timeValue  += ((minutes < 10) ? ":0" : ":") + minutes;
+			timeValue  += ((seconds < 10) ? ":0" : ":") + seconds;
+			timeValue  += (hours >= 12) ? " P.M." : " A.M.";
+			document.clock.face.value = timeValue;
+			timerID = setTimeout("showtime()",1000);
+			timerRunning = true;
+		}
+		//-->
+		</script>
+
+		<form name="clock" onSubmit="0">
+		  <input type="text" name="face" size="24">
+		</form>
+
+		<script>startclock();</script>
+		</script>
+		
+	</div>
+	
+</body>

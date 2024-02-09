@@ -1,0 +1,61 @@
+body
+{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+hr
+{
+	border-color: #F77900;
+}
+
+.header
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	color: #F77900;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.podtytul
+{
+	font-size: 17px;
+	font-family: Arial;
+	color: #F77900;
+	font-weight: bold;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.linkiDoTejSamejStrony
+{
+	text-align: center;
+}
+
+.rys
+{
+	text-align: center;
+}
+
+.definicja
+{
+	font-weight: bold;
+}
+
+
+.tg  {border-collapse:collapse; border-spacing:0; margin-left: auto;margin-right: auto; margin-top: 20px; margin-bottom: 20px;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-sn89{font-size:12px;font-family:Verdana, Geneva, sans-serif !important;;vertical-align:top}
+.tg .tg-hnao{font-size:12px;font-family:Verdana, Geneva, sans-serif !important;;text-align:center}
+.tg .tg-98aa{font-size:12px;font-family:Verdana, Geneva, sans-serif !important;}

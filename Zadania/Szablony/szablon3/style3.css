@@ -1,0 +1,109 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+#container
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto; 
+border:1px solid black;
+} 
+
+#header
+{
+padding:10px;
+height: 140px;
+background: #9CF;
+}
+
+#logo
+{
+float: left;
+padding: 10px;
+width: 120px;
+text-align: center;
+}
+
+#tytul
+{
+float: left;
+padding: 10px;
+width:  560px;
+font-size: 40px;
+color: white;
+line-height: 3;
+}
+
+#nav
+{
+width: 50%;
+margin-left: auto;
+margin-right: auto; 
+}
+
+.wybor 
+{
+float:left;
+min-width:90px;
+font-size: 15px;
+padding: 10px;
+border-left: 3px solid #357;
+height: 20px;
+text-align:center;
+}
+
+#wybor 
+{
+float:left;
+min-width:100px;
+font-size: 15px;
+padding: 10px;
+border-left: 3px solid #357;
+border-right: 3px solid #357;
+height: 20px;
+text-align:center;
+}
+
+.wybor:hover
+{
+background: #999;
+}
+
+#wybor:hover
+{
+background: #999;
+}
+
+#left
+{
+width: 180px;
+padding:10px;
+float: left;
+background: #ABC;
+}
+
+#main
+{
+width: 580px;
+padding:10px;
+float: left;
+background: #9FF;
+}
+
+#right
+{
+width: 180px;
+padding:10px;
+float: left;
+background: #ABC;
+}
+
+#footer
+{
+clear: both;
+padding:10px;
+background: #999;
+}
