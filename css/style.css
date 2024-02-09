@@ -1,0 +1,191 @@
+body
+{
+	background-color: #1c2125;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #efefef;
+}
+
+.container
+{
+	width: 940px;
+	padding:30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#191d21;
+	text-align: justify;
+} 
+
+.header
+{
+	text-align:center;
+	font-size: 28px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-top: 45px;	
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.tytul
+{
+	font-size: 42px;
+}
+
+.podtytul
+{
+	font-size: 30px;
+	color: #39a5f1;
+}
+
+.podpodtytul
+{
+	font-size: 23px;
+	color: #39a5f1;
+}
+
+.nav
+{ 
+	width: 100%;
+	padding: 10px 0;
+	background-color: #2770a3;
+	text-align: center;
+	border-top: 1px solid #39a4ef;
+	border-bottom: 1px solid #39a4ef;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px solid #39a4ef;
+}
+
+ol > li:first-child
+{
+	border-left: 1px solid #339999;
+}
+
+ol > li:hover
+{
+	background-color: #39a4ef;
+}
+
+ol > li:hover > a
+{
+	color: #003333;
+}
+
+a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #999999;
+	text-decoration: none;
+}
+
+.postcard
+{
+	display: inline-block;
+	width: 450px;
+	text-align: center;
+	padding: 10px;
+	float: left;
+}
+
+.photo
+{
+	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+
+.photo img
+{
+	transition: all 0.4s ease-in-out;
+}
+
+.photo:hover img
+{
+	-webkit-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07);
+}
+
+.zrodlo a
+{
+	color: #505e69;
+	font-size: 15px;
+	float: right;
+	font-style:italic;
+}
+
+.zrodlo:hover a
+{
+	color: #6a7d8b;
+	font-size: 15px;
+	float: right;
+	font-style:italic;
+	text-decoration: underline;
+}
+
+.galeria
+{
+	width:100%;
+	text-align:center;
+}
+
+#ladowanie {
+	display: block;
+	position: absolute;
+	top: 0;
+	_top: 50%; /* IE */
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('loading.gif') no-repeat center center;
+}
+
+#zdjecie, #miniaturki {
+	position: relative;
+}
+
+#miniaturki img {
+	width: 250px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.footer
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#15191c;
+	text-align: center;
+	padding: 20px;
+}

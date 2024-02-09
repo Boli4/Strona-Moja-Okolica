@@ -1,0 +1,42 @@
+* {
+padding: 0;
+}
+.css_anchor_gallery {
+width: 940px;    
+overflow: hidden;
+padding: 20px 0;
+} 
+.css_anchor_gallery .pictures_ {
+list-style-type: none; 
+height: 440px;
+width: 740px;
+overflow: hidden; 
+float: right;
+text-align: center; 
+}
+.css_anchor_gallery .pictures_ li {
+background: none;
+}
+.css_anchor_gallery .thumbnails_ { 
+list-style-type: none; 
+width: 180px; 
+overflow: auto; 
+height: 440px; 
+float: left;
+} 
+.css_anchor_gallery .thumbnails_ li { 
+background: none;
+padding: 0; 
+}
+.css_anchor_gallery .thumbnails_ li:first-child {
+margin: 0 0 5px 0;    
+} 
+.css_anchor_gallery a { 
+display: block; 
+width: 152px; 
+height: 152px; 
+} 
+.css_anchor_gallery a img { 
+height: 150px; 
+width: 150px; 
+}
